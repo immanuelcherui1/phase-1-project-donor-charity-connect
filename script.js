@@ -95,10 +95,15 @@ function viewMore(charityCauseId) {
 // Include the footer by calling includeHTML
 includeHTML('footer.html', 'footer');
 
+//WHY DONATE.html//
+// Include the header AND footer by calling includeHTML
+includeHTML('whyDonate.html', 'header');
+
+includeHTML('whyDonate.html', 'footer');
 
 //BE FEATURED.html//
 
 // Include the header AND footer by calling includeHTML
-    includeHTML('beFeatured.html', 'beFeaturedHeader');
+    includeHTML('beFeatured.html', 'header');
 
-    includeHTML('footer.html', 'footer');
+    includeHTML('beFeatured.html', 'footer');
