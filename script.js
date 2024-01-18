@@ -107,3 +107,9 @@ includeHTML('whyDonate.html', 'footer');
     includeHTML('beFeatured.html', 'header');
 
     includeHTML('beFeatured.html', 'footer');
+
+
+//
+
+//TO BE FEATURED SCRIPT
+

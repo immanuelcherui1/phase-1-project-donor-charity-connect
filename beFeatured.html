@@ -27,7 +27,7 @@
             <label for="number">
                 Registration/Government Approval Number*
                 <br>
-                <input type="number" name="contact" id="number" placeholder="Enter Reg No: " required/> <br>
+                <input type="number" name="regNo" id="number" placeholder="Enter Reg No: " required/> <br>
             </label>
             <label for="email">
                 Organizations' Email*
@@ -53,12 +53,12 @@
             <label for="subCounty">
                 Sub County*
                 <br>
-                <input type="text" name="name" id="name" placeholder="Enter Subcounty" required/> <br>
+                <input type="text" name="subCounty" id="name" placeholder="Enter Subcounty" required/> <br>
             </label>
             <label for="address">
                 Address to the Organization*
                 <br>
-                <input type="text" name="name" id="name" placeholder="Enter Address" required/> <br>
+                <input type="text" name="address" id="name" placeholder="Enter Address" required/> <br>
             </label>
             </div>
         </div>
@@ -70,7 +70,7 @@
     <label for="category">
         Select Category*
         <br>
-        <select id="categorySelection">
+        <select name="categorySelected" id="categorySelection">
             <option value="">select</option>
             <option value="END FEMICDE">END FEMICDE</option>
             <option value="WATER PROJECTS">WATER PROJECTS</option>
@@ -87,7 +87,7 @@
         <label for="whaYouDo">
             Description*
             <br>
-            <input type="textarea" id="whatYouDo" placeholder="what you do">  <br>
+            <input type="textarea" name="whaYouDo" id="whatYouDo" placeholder="what you do">  <br>
         </label>
         <label for="donation">
             Donation Method*
@@ -104,7 +104,7 @@
         <label for="donationCredentials">
             Add Donation Credentials*
             <br>
-            <input type="textarea" id="whatYouDo" placeholder="eg:bank-branch,acc-no&name">
+            <input type="textarea" name="donationCredentials" id="donationCredentials" placeholder="eg:bank-branch,acc-no&name">
 
         </label>
 </div>
@@ -116,16 +116,16 @@
             <input type="file" id="file"  name="file"/><br>
         </label>
         <label>Upload Image 1 of the Cause/Project<br>
-            <input type="file" name="projectImage1" id="projectImage1" placeholder="image url" required/>
+            <input type="file1" name="projectImage1" id="projectImage1" placeholder="image url" required/>
         </label>
     </div>
 
     <div>
         <label>Upload Image 2 of the Cause/Project<br>
-            <input type="file" name="projectImage2" id="projectImage2" required/><br>
+            <input type="file2" name="projectImage2" id="projectImage2" required/><br>
         </label>
         <label>Upload Image 3 of the Cause/Project<br>
-            <input type="file" name="projectImage3" id="projectImage3" required/><br>
+            <input type="file3" name="projectImage3" id="projectImage3" required/><br>
         </label>
     </div>
 </div>
