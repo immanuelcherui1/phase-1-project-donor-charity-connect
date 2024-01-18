@@ -1,0 +1,22 @@
+{
+  "name": "phase-1-project-donor-charity-connect",
+  "version": "1.0.0",
+  "description": "Web-based platform that serves as a bridge between donors and charitable organizations.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immanuelcherui1/phase-1-project-donor-charity-connect.git"
+  },
+  "author": "Immanuel Cheruiyot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immanuelcherui1/phase-1-project-donor-charity-connect/issues"
+  },
+  "homepage": "https://github.com/immanuelcherui1/phase-1-project-donor-charity-connect#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.21"
+  }
+}

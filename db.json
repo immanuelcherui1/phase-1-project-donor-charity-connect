@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "title": "END FEMICIDE",
+        "description": "Raise awareness and support initiatives to end femicide and violence against women.",
+        "image": "images/End_Femicide.jpg",
+        "organizations": [
+            {
+                "name": "Women's Rights Advocates",
+                "address": "123 Main Street, Cityville",
+                "whatTheyDo": "Advocate for women's rights and gender equality.",
+                "donationMethod": "Online donations, bank transfers"
+            },
+            {
+                "name": "Femicide Prevention Foundation",
+                "address": "456 Oak Avenue, Townsville",
+                "whatTheyDo": "Work on initiatives to prevent femicide and support victims.",
+                "donationMethod": "Credit card payments, checks"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "WATER PROJECT",
+        "description": "Provide clean and safe water to communities in need through sustainable water projects.",
+        "image": "images/water_project.jpg",
+        "organizations": [
+            {
+                "name": "Women's Rights Advocates",
+                "address": "123 Main Street, Cityville",
+                "whatTheyDo": "Advocate for women's rights and gender equality.",
+                "donationMethod": "Online donations, bank transfers"
+            },
+            {
+                "name": "Femicide Prevention Foundation",
+                "address": "456 Oak Avenue, Townsville",
+                "whatTheyDo": "Work on initiatives to prevent femicide and support victims.",
+                "donationMethod": "Credit card payments, checks"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "NATURAL DISASTERS",
+        "description": "Support disaster relief efforts and help communities affected by natural disasters.",
+        "image": "images/Natural-Disasters.jpg",
+        "organizations": [
+            {
+                "name": "Women's Rights Advocates",
+                "address": "123 Main Street, Cityville",
+                "whatTheyDo": "Advocate for women's rights and gender equality.",
+                "donationMethod": "Online donations, bank transfers"
+            },
+            {
+                "name": "Femicide Prevention Foundation",
+                "address": "456 Oak Avenue, Townsville",
+                "whatTheyDo": "Work on initiatives to prevent femicide and support victims.",
+                "donationMethod": "Credit card payments, checks"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "MAKE HER SMILE",
+        "description": "Support Girlchild by donating pads and promoting menstrual hygiene.",
+        "image": "images/pads_for_girlchild.jpg",
+        "organizations": [
+            {
+                "name": "Women's Rights Advocates",
+                "address": "123 Main Street, Cityville",
+                "whatTheyDo": "Advocate for women's rights and gender equality.",
+                "donationMethod": "Online donations, bank transfers"
+            },
+            {
+                "name": "Femicide Prevention Foundation",
+                "address": "456 Oak Avenue, Townsville",
+                "whatTheyDo": "Work on initiatives to prevent femicide and support victims.",
+                "donationMethod": "Credit card payments, checks"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "FOOD PROGRAMME",
+        "description": "Provide nutritious meals to those facing hunger and food insecurity.",
+        "image": "images/food_programme.jpg",
+        "organizations": [
+            {
+                "name": "Women's Rights Advocates",
+                "address": "123 Main Street, Cityville",
+                "whatTheyDo": "Advocate for women's rights and gender equality.",
+                "donationMethod": "Online donations, bank transfers"
+            },
+            {
+                "name": "Femicide Prevention Foundation",
+                "address": "456 Oak Avenue, Townsville",
+                "whatTheyDo": "Work on initiatives to prevent femicide and support victims.",
+                "donationMethod": "Credit card payments, checks"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "CHILDREN'S HOME",
+        "description": "Support orphaned and vulnerable children by contributing to their well-being and education.",
+        "image": "images/childrens_home.jpg",
+        "organizations": [
+            {
+                "name": "Women's Rights Advocates",
+                "address": "123 Main Street, Cityville",
+                "whatTheyDo": "Advocate for women's rights and gender equality.",
+                "donationMethod": "Online donations, bank transfers"
+            },
+            {
+                "name": "Femicide Prevention Foundation",
+                "address": "456 Oak Avenue, Townsville",
+                "whatTheyDo": "Work on initiatives to prevent femicide and support victims.",
+                "donationMethod": "Credit card payments, checks"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "EDUCATION FOR ALL",
+        "description": "Promote education for all, ensuring that every child has access to quality education.",
+        "image": "images/education_project.jpg",
+        "organizations": [
+            {
+                "name": "Women's Rights Advocates",
+                "address": "123 Main Street, Cityville",
+                "whatTheyDo": "Advocate for women's rights and gender equality.",
+                "donationMethod": "Online donations, bank transfers"
+            },
+            {
+                "name": "Femicide Prevention Foundation",
+                "address": "456 Oak Avenue, Townsville",
+                "whatTheyDo": "Work on initiatives to prevent femicide and support victims.",
+                "donationMethod": "Credit card payments, checks"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "FGM FIGHT",
+        "description": "Join the fight against Female Genital Mutilation (FGM) and advocate for its elimination.",
+        "image": "images/fgm.jpg",
+        "organizations": [
+            {
+                "name": "Women's Rights Advocates",
+                "address": "123 Main Street, Cityville",
+                "whatTheyDo": "Advocate for women's rights and gender equality.",
+                "donationMethod": "Online donations, bank transfers"
+            },
+            {
+                "name": "Femicide Prevention Foundation",
+                "address": "456 Oak Avenue, Townsville",
+                "whatTheyDo": "Work on initiatives to prevent femicide and support victims.",
+                "donationMethod": "Credit card payments, checks"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "ORGAN DONATION",
+        "description": "Raise awareness about organ donation and encourage individuals to become organ donors.",
+        "image": "images/organ-transplant.webp",
+        "organizations": [
+            {
+                "name": "Women's Rights Advocates",
+                "address": "123 Main Street, Cityville",
+                "whatTheyDo": "Advocate for women's rights and gender equality.",
+                "donationMethod": "Online donations, bank transfers"
+            },
+            {
+                "name": "Femicide Prevention Foundation",
+                "address": "456 Oak Avenue, Townsville",
+                "whatTheyDo": "Work on initiatives to prevent femicide and support victims.",
+                "donationMethod": "Credit card payments, checks"
+            }
+        ]
+    }
+]
