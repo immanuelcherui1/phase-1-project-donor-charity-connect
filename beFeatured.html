@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Kaushan+Script&family=Kenia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
+    <title>Be Featured</title>
+</head>
+<body>
+    <header>
+        <div id="header"></div>
+    </header>
+<section>
+    <div class="container">
+        
+  <h2 class="text-danger text-center">APPLICATION FORM</h2>
+
+<form id="form" class="flex-wrap">
+    <div>
+        <div id="personal">
+            <h3 class="text-center text-bg-dark text-white">ORGANIZATION DETAILS</h3>
+            <label for="name">
+                Name of the Organization*
+                <br>
+                <input type="text" name="name" id="name" placeholder="Organizations Name" required/> <br>
+            </label>
+            <label for="number">
+                Registration/Government Approval Number*
+                <br>
+                <input type="number" name="contact" id="number" placeholder="Enter Reg No: " required/> <br>
+            </label>
+            <label for="email">
+                Organizations' Email*
+                <br>
+                <input type="email" name="email" id="email" placeholder="Enter Organizations email" required/>
+            </label>
+            <div>
+                <h3 class="text-center text-bg-dark text-white">LOCATION DETAILS</h3>
+                <label for="residence">
+               County of Residence*
+               <br>
+                <select id="location">
+            <option value="">select</option>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Eldoret">Eldoret</option>
+            <option value="Nakuru">Nakuru</option>
+            <option value="Kericho">Kericho</option>
+            <option value="Kitui">Kitui</option>
+            </select> <br>
+            </label>
+            <label for="subCounty">
+                Sub County*
+                <br>
+                <input type="text" name="name" id="name" placeholder="Enter Subcounty" required/> <br>
+            </label>
+            <label for="address">
+                Address to the Organization*
+                <br>
+                <input type="text" name="name" id="name" placeholder="Enter Address" required/> <br>
+            </label>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+<div id="proof">
+    <h3 class="text-center text-bg-dark text-white">CATEGORIES</h3> 
+    <label for="category">
+        Select Category*
+        <br>
+        <select id="categorySelection">
+            <option value="">select</option>
+            <option value="END FEMICDE">END FEMICDE</option>
+            <option value="WATER PROJECTS">WATER PROJECTS</option>
+            <option value="NATURAL DISASTERS">NATURAL DISASTERS</option>
+            <option value="MAKE HER SMILE">MAKE HER SMILE</option>
+            <option value="FOOD PROGRAMME">FOOD PROGRAMME</option>
+            <option value="CHILDREN'S HOME">CHILDREN'S HOME</option>
+            <option value="EDUCATION FOR ALL">EDUCATION FOR ALL</option>
+            <option value="FGM FIGHT">FGM FIGHT</option>
+            <option value="ORGAN DONATION">ORGAN DONATION</option>
+            <option value="COMPUTER AID">COMPUTER AID</option>
+        </select> <br>
+        </label>
+        <label for="whaYouDo">
+            Description*
+            <br>
+            <input type="textarea" id="whatYouDo" placeholder="what you do">  <br>
+        </label>
+        <label for="donation">
+            Donation Method*
+            <br>
+            <select name="donationMethod" id="donationMethod">
+                <option value="">Select</option>
+                <option value="MASTERCARD">MASTER CARD</option>
+                <option value="VISA">VISA</option>
+                <option value="PAYPAL">PAYPAL</option>
+                <option value="BITCOIN">BITCOIN</option>
+                <option value="M-PESA">M-PESA</option>
+            </select><br>
+        </label>
+        <label for="donationCredentials">
+            Add Donation Credentials*
+            <br>
+            <input type="textarea" id="whatYouDo" placeholder="eg:bank-branch,acc-no&name">
+
+        </label>
+</div>
+
+<div id="causeUploads">
+    <div>
+        <h3 class="text-center text-bg-dark text-white">CAUSE UPLOADS</h3>
+        <label>Attach Documents Detailing More Info<br>
+            <input type="file" id="file"  name="file"/><br>
+        </label>
+        <label>Upload Image 1 of the Cause/Project<br>
+            <input type="file" name="projectImage1" id="projectImage1" placeholder="image url" required/>
+        </label>
+    </div>
+
+    <div>
+        <label>Upload Image 2 of the Cause/Project<br>
+            <input type="file" name="projectImage2" id="projectImage2" required/><br>
+        </label>
+        <label>Upload Image 3 of the Cause/Project<br>
+            <input type="file" name="projectImage3" id="projectImage3" required/><br>
+        </label>
+    </div>
+</div>
+
+<div id="privacy" class="w-100">
+    Data privacy
+    <br>
+    <label for="check">
+        By confirming that the information entered in this form is true and accurate,
+        you agree to abide by the terms and conditions. <br>
+        You understand that providing false information may result in consequences
+        as outlined in our policies. <br>
+            <input type="checkbox" id="check" required/>
+        I understand & Agree to the T&C's
+    </label>
+</div>
+
+
+<div class="flex text-center">
+    <button id="submit" class="text-lg-center mt-5 bg-black w-25 p-3 text-white">Submit</button>
+</div>
+
+</form>      
+
+
+
+
+</section>
+<script src="script.js"></script>
+</body>
+<footer class="footer">
+    <div id="footer"></div>
+</footer>
+</html>

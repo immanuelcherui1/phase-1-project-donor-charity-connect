@@ -1,4 +1,3 @@
-// ...
 
 // Function to fetch and include HTML files
 function includeHTML(file, elementId) {
@@ -15,6 +14,7 @@ function includeHTML(file, elementId) {
 document.addEventListener('DOMContentLoaded', function () {
     // Include the header by calling includeHTML
     includeHTML('header.html', 'header');
+    includeHTML('beFeatured.html', 'beFeaturedHeader');
 
     // Fetch charitableCauses from a db.json file
     fetch('db.json')
@@ -95,3 +95,10 @@ function viewMore(charityCauseId) {
 // Include the footer by calling includeHTML
 includeHTML('footer.html', 'footer');
 
+
+//BE FEATURED.html//
+
+// Include the header AND footer by calling includeHTML
+    includeHTML('beFeatured.html', 'beFeaturedHeader');
+
+    includeHTML('footer.html', 'footer');
