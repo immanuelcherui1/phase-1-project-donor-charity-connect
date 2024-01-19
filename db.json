@@ -1,82 +1,72 @@
-[
+[ 
     {
         "id": 1,
         "title": "END FEMICIDE",
         "description": "Raise awareness and support initiatives to end femicide and violence against women.",
         "image": "images/End_Femicide.jpg",
-        "organizations": [
-          
-        ]
+        "organizations": {
+            "name":"shhsdj",
+            "age":"68"
+        }
     },
     {
         "id": 2,
         "title": "WATER PROJECT",
         "description": "Provide clean and safe water to communities in need through sustainable water projects.",
         "image": "images/water_project.jpg",
-        "organizations": [
-           
-        ]
+        "organizations": {
+            "name":"shhsdj",
+            "age":"68"
+        }
     },
     {
         "id": 3,
         "title": "NATURAL DISASTERS",
         "description": "Support disaster relief efforts and help communities affected by natural disasters.",
         "image": "images/Natural-Disasters.jpg",
-        "organizations": [
-          
-        ]
+        "organizations": {}
     },
     {
         "id": 4,
         "title": "MAKE HER SMILE",
         "description": "Support Girlchild by donating pads and promoting menstrual hygiene.",
         "image": "images/pads_for_girlchild.jpg",
-        "organizations": [
-           
-        ]
+        "organizations": {}
     },
     {
         "id": 5,
         "title": "FOOD PROGRAMME",
         "description": "Provide nutritious meals to those facing hunger and food insecurity.",
         "image": "images/food_programme.jpg",
-        "organizations": [
-         
-        ]
+        "organizations":{}
+        
     },
     {
         "id": 6,
         "title": "CHILDREN'S HOME",
         "description": "Support orphaned and vulnerable children by contributing to their well-being and education.",
         "image": "images/childrens_home.jpg",
-        "organizations": [
-            
-        ]
+        "organizations":{}
     },
     {
         "id": 7,
         "title": "EDUCATION FOR ALL",
         "description": "Promote education for all, ensuring that every child has access to quality education.",
         "image": "images/education_project.jpg",
-        "organizations":[
-        ]
+        "organizations":{}
     },
     {
         "id": 8,
         "title": "FGM FIGHT",
         "description": "Join the fight against Female Genital Mutilation (FGM) and advocate for its elimination.",
         "image": "images/fgm.jpg",
-        "organizations": [
-           
-        ]
+        "organizations": {}
     },
     {
         "id": 9,
         "title": "ORGAN DONATION",
         "description": "Raise awareness about organ donation and encourage individuals to become organ donors.",
         "image": "images/organ-transplant.webp",
-        "organizations": [
-           
-        ]
+        "organizations": {}
     }
 ]

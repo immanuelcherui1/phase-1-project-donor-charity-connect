@@ -11,13 +11,13 @@
         <div id="header"></div>
     </header>
 <section>
-    <div class="container">
+    <div class="container2">
         
-  <h2 class="text-danger text-center">APPLICATION FORM</h2>
+  <h2 class="application form">APPLICATION FORM</h2>
 
 <form id="form" class="flex-wrap">
-    <div>
-        <div id="personal">
+    <div id="form1">
+        <div id="Organizations">
             <h3 class="text-center text-bg-dark text-white">ORGANIZATION DETAILS</h3>
             <label for="name">
                 Name of the Organization*
@@ -34,38 +34,42 @@
                 <br>
                 <input type="email" name="email" id="email" placeholder="Enter Organizations email" required/>
             </label>
-            <div>
-                <h3 class="text-center text-bg-dark text-white">LOCATION DETAILS</h3>
-                <label for="residence">
-               County of Residence*
-               <br>
-                <select id="location">
-            <option value="">select</option>
-            <option value="Nairobi">Nairobi</option>
-            <option value="Mombasa">Mombasa</option>
-            <option value="Kisumu">Kisumu</option>
-            <option value="Eldoret">Eldoret</option>
-            <option value="Nakuru">Nakuru</option>
-            <option value="Kericho">Kericho</option>
-            <option value="Kitui">Kitui</option>
-            </select> <br>
-            </label>
-            <label for="subCounty">
-                Sub County*
-                <br>
-                <input type="text" name="subCounty" id="name" placeholder="Enter Subcounty" required/> <br>
-            </label>
-            <label for="address">
-                Address to the Organization*
-                <br>
-                <input type="text" name="address" id="name" placeholder="Enter Address" required/> <br>
-            </label>
-            </div>
+            
+        </div>
+        
+    </div>
+    <div>
+        <div>
+            <h3 class="text-center text-bg-dark text-white">LOCATION DETAILS</h3>
+            <label for="residence">
+           County of Residence*
+           <br>
+            <select id="location">
+        <option value="">select</option>
+        <option value="Nairobi">Nairobi</option>
+        <option value="Mombasa">Mombasa</option>
+        <option value="Kisumu">Kisumu</option>
+        <option value="Eldoret">Eldoret</option>
+        <option value="Nakuru">Nakuru</option>
+        <option value="Kericho">Kericho</option>
+        <option value="Kitui">Kitui</option>
+        </select> <br>
+        </label>
+        <label for="subCounty">
+            Sub County*
+            <br>
+            <input type="text" name="subCounty" id="name" placeholder="Enter Subcounty" required/> <br>
+        </label>
+        <label for="address">
+            Address to the Organization*
+            <br>
+            <input type="text" name="address" id="name" placeholder="Enter Address" required/> <br>
+        </label>
         </div>
     </div>
     <hr>
     
-<div id="proof">
+<div id="form2">
     <h3 class="text-center text-bg-dark text-white">CATEGORIES</h3> 
     <label for="category">
         Select Category*
@@ -116,39 +120,40 @@
             <input type="file" id="file"  name="file"/><br>
         </label>
         <label>Upload Image 1 of the Cause/Project<br>
-            <input type="file1" name="projectImage1" id="projectImage1" placeholder="image url" required/>
+            <input type="file" name="projectImage1" id="projectImage1" required/>
         </label>
     </div>
 
     <div>
         <label>Upload Image 2 of the Cause/Project<br>
-            <input type="file2" name="projectImage2" id="projectImage2" required/><br>
+            <input type="file" name="projectImage2" id="projectImage2" required/><br>
         </label>
         <label>Upload Image 3 of the Cause/Project<br>
-            <input type="file3" name="projectImage3" id="projectImage3" required/><br>
+            <input type="file" name="projectImage3" id="projectImage3" required/><br>
         </label>
     </div>
 </div>
-
-<div id="privacy" class="w-100">
-    Data privacy
-    <br>
-    <label for="check">
-        By confirming that the information entered in this form is true and accurate,
-        you agree to abide by the terms and conditions. <br>
-        You understand that providing false information may result in consequences
-        as outlined in our policies. <br>
-            <input type="checkbox" id="check" required/>
-        I understand & Agree to the T&C's
-    </label>
-</div>
-
-
-<div class="flex text-center">
-    <button id="submit" class="text-lg-center mt-5 bg-black w-25 p-3 text-white">Submit</button>
-</div>
-
-</form>      
+</form>
+<form id=form3>
+    <div id="privacy" class="privacy">
+        Data privacy
+        <br>
+        <label for="check">
+            By confirming that the information entered in this form is true and accurate,
+            you agree to abide by the terms and conditions. <br>
+            You understand that providing false information may result in consequences
+            as outlined in our policies. <br>
+                <input type="checkbox" id="check" required/>
+            I understand & Agree to the T&C's
+        </label>
+    </div>
+    
+    
+    <div class="flex text-center">
+        <button id="submit" class="xxx">Submit</button>
+    </div>
+    
+</form>
 
 
 
