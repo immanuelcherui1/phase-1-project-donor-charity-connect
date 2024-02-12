@@ -66,38 +66,6 @@ function viewMore(charityCauseId) {
     // Redirect to details.html with the selected organization ID
     window.location.href = `details.html?id=${charityCauseId}`;
 }
-function displayOrganizations(organizations) {
-    // Select the organizations container element by its ID
-    const organizationsContainer = document.getElementById('organizations');
-
-    // Clear previous content in the organizations container
-    organizationsContainer.innerHTML = '';
-
-    // Iterate through each organization and create a card for it
-    organizations.forEach(organization => {
-        // Create a div element for the organization card
-        const organizationCard = document.createElement('div');
-
-        // Add class and attribute to the card
-        organizationCard.classList.add('organization-card');
-        organizationCard.setAttribute('data-organization-id', charityCause.organizations);
-
-        // Set the inner HTML content of the card dynamically
-        organizationCard.innerHTML = `
-            <h2>${charityCause.organizations.name}</h2>
-            <img src="${charityCause.organizations.image}" alt="${charityCause.title}">
-            <p>${charityCause.organizations.age}</p>
-            <button onclick="Donate(${organizations.donationMethod})">Donate</button>
-        `;
-
-        // Attach the card to the organization object for potential reference
-        organization.element = organizationCard;
-
-        // Append the card to the organizations container
-        organizationsContainer.appendChild(organizationCard);
-    });
-}
-
 
 
 // Execute when the DOM content is fully loaded
@@ -223,3 +191,36 @@ form.addEventListener('submit', async (e) => {
         console.error('No matching organization found.');
     }
 });
+
+function displayOrganizations(organizations) {
+    // Select the organizations container element by its ID
+    const organizationsContainer = document.getElementById('organizations');
+
+    // Clear previous content in the organizations container
+    organizationsContainer.innerHTML = '';
+
+    // Iterate through each organization and create a card for it
+    organizations.forEach(organization => {
+        // Create a div element for the organization card
+        const organizationCard = document.createElement('div');
+
+        // Add class and attribute to the card
+        organizationCard.classList.add('organization-card');
+        organizationCard.setAttribute('data-organization-id', charityCause.organizations);
+
+        // Set the inner HTML content of the card dynamically
+        organizationCard.innerHTML = `
+            <h2>${charityCause.organizations.name}</h2>
+            <img src="${charityCause.organizations.image}" alt="${charityCause.title}">
+            <p>${charityCause.organizations.age}</p>
+            <button onclick="Donate(${organizations.donationMethod})">Donate</button>
+        `;
+
+        // Attach the card to the organization object for potential reference
+        organization.element = organizationCard;
+
+        // Append the card to the organizations container
+        organizationsContainer.appendChild(organizationCard);
+    });
+}
+
